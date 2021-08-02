@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>MyAPI.Repository</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataBase\MyAPI.DataBase.csproj" />
+    <ProjectReference Include="..\IRepository\MyAPI.IRepository.csproj" />
+    <ProjectReference Include="..\Model\MyAPI.Model.csproj" />
+  </ItemGroup>
+
+</Project>
